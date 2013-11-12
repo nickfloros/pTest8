@@ -1,0 +1,1 @@
+Simple polymer application to test custom element insertion

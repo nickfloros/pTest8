@@ -1,0 +1,26 @@
+<polymer-element name="click-counter" attributes="count">
+  <template>
+    <style>
+      div {
+        font-size: 24pt;
+        text-align: center;
+        margin-top: 140px;
+      }
+      button {
+        font-size: 24pt;
+        margin-bottom: 20px;
+      }
+    </style>
+    <div>
+      <button on-click="{{increment}}">Click me</button><br>
+      <div id="infoPad"></div>
+      <span>(click count: {{count}})</span>
+    </div>
+  </template>
+  <!-- dependancies -->
+  <link rel="import" href="infoa.html">
+  <link rel="import" href="infob.html">
+  <script type="application/dart" src="clickcounter.dart"></script>
+  
+</polymer-element>
+
